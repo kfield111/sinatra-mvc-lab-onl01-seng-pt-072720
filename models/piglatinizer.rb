@@ -11,10 +11,10 @@ class PigLatinizer
     string.each do |temp|
       vowels = ["a", "e", "i", "o", "u"]
 
-      if (vowels.include? "#{words[0]}".downcase)
-        "#{words}way"
+      if (vowels.include? "#{temp[0]}".downcase)
+        "#{temp}way"
       else
-        split_word = words.split /([aeiou].*)/
+        split_word = temp.split /([aeiou].*)/
         "#{split_word[1]}#{split_word[0]}ay"
       end
     end
