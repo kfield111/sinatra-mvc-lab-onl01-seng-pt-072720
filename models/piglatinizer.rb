@@ -10,7 +10,7 @@ class PigLatinizer
     words = string.split(' ')
     array = []
     words.each do |temp|
-      array << self.piglatinize_word(temp)
+      array << self.piglatinize_word
     end
     array.join(' ')
   end
