@@ -7,11 +7,8 @@ class PigLatinizer
     @string = string
   end
 
-  def piglatinize (string)
+  def piglatinize_word (word)
 
-    piglatinized_string = []
-
-    string.each do |temp|
       vowels = ["a", "e", "i", "o", "u"]
 
       if (vowels.include? "#{temp[0]}".downcase)
