@@ -15,7 +15,7 @@ class PigLatinizer
       array << self.piglatinize_word(temp)
     end
     array.join(' ')
-    binding.pry
+    # binding.pry
   end
 
 
