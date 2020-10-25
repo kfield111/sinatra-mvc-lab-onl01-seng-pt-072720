@@ -9,7 +9,7 @@ class PigLatinizer
 
     vowels = ["a", "e", "i", "o", "u"]
 
-    if (vowels.include? "#{word[0]}.downcase")
+    if (vowels.include? "#{word[0]}".downcase)
 
 
 
