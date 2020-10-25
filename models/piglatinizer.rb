@@ -12,7 +12,7 @@ class PigLatinizer
     words = string.split(' ')
     array = []
     words.each do |temp|
-      self.piglatinize_word(temp)
+      array << self.piglatinize_word(temp)
     end
     binding.pry
   end
