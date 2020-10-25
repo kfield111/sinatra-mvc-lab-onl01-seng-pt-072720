@@ -13,7 +13,6 @@ class PigLatinizer
     words.each do |temp|
       self.piglatinize_word(string)
     end
-    words
   end
 
 
