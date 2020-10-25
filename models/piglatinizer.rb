@@ -11,6 +11,7 @@ class PigLatinizer
 
     string.each do |temp|
       words << temp.split
+    end
 
     vowels = ["a", "e", "i", "o", "u"]
 
