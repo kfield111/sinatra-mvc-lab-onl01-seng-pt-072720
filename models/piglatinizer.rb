@@ -8,9 +8,9 @@ class PigLatinizer
   def piglatinize (string)
 
     words = []
-  
+
     string.each do |temp|
-      
+
 
     vowels = ["a", "e", "i", "o", "u"]
 
