@@ -9,10 +9,10 @@ class PigLatinizer
 
     vowels = ["a", "e", "i", "o", "u"]
 
-    if (vowels.include? "#{word[0]}".downcase)
-      "#{word}way"
+    if (vowels.include? "#{string[0]}".downcase)
+      "#{string}way"
     else
-      split_word = word.split /([aeiou].*)/
+      split_word = string.split /([aeiou].*)/
       "#{split_word[1]}#{split_word[0]}ay"
     end
   end
