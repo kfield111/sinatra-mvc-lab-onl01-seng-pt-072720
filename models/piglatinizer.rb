@@ -10,7 +10,7 @@ class PigLatinizer
     words = []
 
     string.each do |temp|
-      words << temp.split
+      words << temp.split(' ')
     end
 
     words.each do |temp|
