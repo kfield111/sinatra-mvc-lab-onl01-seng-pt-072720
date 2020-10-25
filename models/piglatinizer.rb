@@ -14,6 +14,7 @@ class PigLatinizer
     words.each do |temp|
       array << self.piglatinize_word(temp)
     end
+    array
     binding.pry
   end
 
