@@ -31,6 +31,6 @@ class PigLatinizer
     end
   end
 
-binding.pry
+# binding.pry
 
 end
