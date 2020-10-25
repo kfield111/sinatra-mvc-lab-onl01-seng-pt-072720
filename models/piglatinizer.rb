@@ -13,7 +13,7 @@ class PigLatinizer
       "#{word}way"
     else
       split_word = word.split /([aeiou].*)/
-      "#{split_word[1]} + #{split_word[0]} + ay"
+      "#{split_word[1]} #{split_word[0]} ay"
     end
   end
 
