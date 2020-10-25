@@ -15,7 +15,7 @@ class PigLatinizer
       "#{temp}way"
     else
       split_word = word.split /([aeiou].*)/
-      piglatinized_string << "#{split_word[1]}#{split_word[0]}ay"
+      "#{split_word[1]}#{split_word[0]}ay"
     end
   end
 
