@@ -19,7 +19,7 @@ class PigLatinizer
 
 
 
-  def piglatinize_word(word)
+  def piglatinize(word)
 
     vowels = ["a", "e", "i", "o", "u"]
 
