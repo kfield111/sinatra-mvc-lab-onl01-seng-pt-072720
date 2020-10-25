@@ -18,12 +18,12 @@ class PigLatinizer
   def to_pig_latin(string)
     words = string.split(" ")
     words.map! {|word|  piglatinize(word)}
-    words.join(" ")
-  end
+    words
 
 
 
-  def piglatinize(word)
+  def piglatinize_word(word)
+
     vowels = ["a", "e", "i", "o", "u"]
 
     if (vowels.include? "#{word[0]}".downcase)
