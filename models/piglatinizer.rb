@@ -8,18 +8,18 @@ class PigLatinizer
   end
 
 
-  # def piglatinize
-  #   words = @string.split(' ')
-  #   array = []
-  #   words.each do |temp|
-  #     array << piglatinize_word(temp)
-  #   end
-  #   array.join(' ')
-  # end
+  def piglatinize
+    words = @string.split(' ')
+    array = []
+    words.each do |temp|
+      array << piglatinize_word(temp)
+    end
+    array.join(' ')
+  end
 
 
 
-  def piglatinize(word)
+  def piglatinize_word(word)
 
     vowels = ["a", "e", "i", "o", "u"]
 
