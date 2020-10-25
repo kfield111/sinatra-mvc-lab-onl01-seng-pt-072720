@@ -7,13 +7,8 @@ class PigLatinizer
 
   def piglatinize (string)
 
-    words = []
-
+  
     string.each do |temp|
-      words << temp
-    end
-
-    words.each do |temp|
       vowels = ["a", "e", "i", "o", "u"]
 
       if (vowels.include? "#{words[0]}".downcase)
