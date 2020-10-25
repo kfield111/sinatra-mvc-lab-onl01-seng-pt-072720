@@ -19,6 +19,7 @@ class PigLatinizer
         piglatinized_string << "#{split_word[1]}#{split_word[0]}ay"
       end
     end
+    piglatinized_string
   end
 
 
