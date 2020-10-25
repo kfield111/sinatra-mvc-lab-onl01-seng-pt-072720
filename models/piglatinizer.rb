@@ -15,6 +15,7 @@ class PigLatinizer
       split_word = word.split /([aeiou].*)/
       "#{split_word[1]} + #{split_word[0]} + ay"
     end
+  end
 
 
 
