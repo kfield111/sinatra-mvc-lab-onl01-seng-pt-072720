@@ -8,13 +8,13 @@ class PigLatinizer
   end
 
 
-  # def piglatinize (string)
-  #   self.piglatinize_word(string)
-  # end
+  def piglatinize (string)
+    self.piglatinize_word(string)
+  end
 
 
 
-  def piglatinize (word)
+  def piglatinize_word (word)
 
     vowels = ["a", "e", "i", "o", "u"]
 
