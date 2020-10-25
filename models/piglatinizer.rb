@@ -5,7 +5,7 @@ class PigLatinizer
     @string = string
   end
 
-  def piglatinize (word)
+  def piglatinize (string)
 
     vowels = ["a", "e", "i", "o", "u"]
 
