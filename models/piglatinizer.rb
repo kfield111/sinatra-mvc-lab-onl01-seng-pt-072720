@@ -7,15 +7,16 @@ class PigLatinizer
 
   def piglatinize (string)
 
+    piglatinized_string = []
 
     string.each do |temp|
       vowels = ["a", "e", "i", "o", "u"]
 
       if (vowels.include? "#{temp[0]}".downcase)
-        "#{temp}way"
+        piglatinized_string << "#{temp}way"
       else
         split_word = temp.split /([aeiou].*)/
-        "#{split_word[1]}#{split_word[0]}ay"
+        piglatinized_string << "#{split_word[1]}#{split_word[0]}ay"
       end
     end
   end
