@@ -1,5 +1,3 @@
-require 'pry'
-
 class PigLatinizer
   attr_reader :string
 
@@ -15,7 +13,6 @@ class PigLatinizer
       array << self.piglatinize_word(temp)
     end
     array.join(' ')
-    # binding.pry
   end
 
 
