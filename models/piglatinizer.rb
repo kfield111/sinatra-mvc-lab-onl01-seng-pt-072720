@@ -10,7 +10,7 @@ class PigLatinizer
     words = []
 
     string.each do |temp|
-
+      words << temp
 
     vowels = ["a", "e", "i", "o", "u"]
 
