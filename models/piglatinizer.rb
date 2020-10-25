@@ -9,7 +9,10 @@ class PigLatinizer
 
 
   def piglatinize (string)
-    self.piglatinize_word(string)
+    words = string.split
+    words.each do |temp|
+      self.piglatinize_word(string)
+    end
   end
 
 
