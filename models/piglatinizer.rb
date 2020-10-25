@@ -9,7 +9,7 @@ class PigLatinizer
 
 
   def piglatinize (string)
-    piglatinize_word(string)
+    self.piglatinize_word(string)
   end
 
 
