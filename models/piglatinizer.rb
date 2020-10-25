@@ -10,10 +10,10 @@ class PigLatinizer
 
   def piglatinize (string)
     words = string.split(' ')
+    array = []
     words.each do |temp|
       self.piglatinize_word(temp)
     end
-    words
     binding.pry
   end
 
