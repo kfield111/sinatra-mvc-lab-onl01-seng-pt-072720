@@ -22,6 +22,7 @@ class PigLatinizer
       end
     end
     piglatinized_string
+    binding.pry
   end
 
 
