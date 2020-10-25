@@ -6,19 +6,14 @@ class PigLatinizer
   end
 
 
-  # def piglatinize(string)
-  #   words = string.split(' ')
-  #   array = []
-  #   words.each do |temp|
-  #     array << self.piglatinize_word(temp)
-  #   end
-  #   array.join(' ')
-  # end
-
-  def to_pig_latin(string)
-    words = string.split(" ")
-    words.map! {|word|  piglatinize(word)}
-    words
+  def piglatinize(string)
+    words = string.split(' ')
+    array = []
+    words.each do |temp|
+      array << self.piglatinize_word(temp)
+    end
+    array.join(' ')
+  end
 
 
 
