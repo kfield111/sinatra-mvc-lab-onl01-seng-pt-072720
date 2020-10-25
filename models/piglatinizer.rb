@@ -7,6 +7,8 @@ class PigLatinizer
 
   def piglatinize (string)
 
+    string.split
+
     vowels = ["a", "e", "i", "o", "u"]
 
     if (vowels.include? "#{string[0]}".downcase)
