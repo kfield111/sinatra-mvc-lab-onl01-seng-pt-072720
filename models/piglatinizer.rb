@@ -9,7 +9,7 @@ class PigLatinizer
 
 
   def piglatinize(string)
-    words = @string.split(' ')
+    words = string.split(' ')
     array = []
     words.each do |temp|
       array << piglatinize_word(temp)
