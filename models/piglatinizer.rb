@@ -7,7 +7,10 @@ class PigLatinizer
 
   def piglatinize (string)
 
-    string.split
+    words = []
+  
+    string.each do |temp|
+      
 
     vowels = ["a", "e", "i", "o", "u"]
 
