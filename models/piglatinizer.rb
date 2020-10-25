@@ -7,7 +7,7 @@ class PigLatinizer
 
   def piglatinize (string)
 
-  
+
     string.each do |temp|
       vowels = ["a", "e", "i", "o", "u"]
 
