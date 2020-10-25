@@ -8,7 +8,7 @@ class PigLatinizer
   end
 
 
-  def piglatinize (string)
+  def piglatinize(string)
     words = string.split(' ')
     array = []
     words.each do |temp|
