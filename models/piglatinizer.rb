@@ -11,7 +11,7 @@ class PigLatinizer
   def piglatinize (string)
     words = string.split(' ')
     words.each do |temp|
-      self.piglatinize_word(string)
+      self.piglatinize_word(temp)
     end
     binding.pry
   end
