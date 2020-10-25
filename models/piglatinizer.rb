@@ -19,6 +19,7 @@ class PigLatinizer
     words = string.split(" ")
     words.map! {|word|  piglatinize(word)}
     words.join(" ")
+  end
 
 
 
